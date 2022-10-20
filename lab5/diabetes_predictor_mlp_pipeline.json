@@ -77,7 +77,7 @@
               "python3",
               "/pipelines/component/src/component.py"
             ],
-            "image": "gcr.io/de2022-362409/dataingestor:0.0.1"
+            "image": "gcr.io/decent-oxygen-361810/dataingestor:0.0.1"
           }
         },
         "exec-train-mlp": {
@@ -96,7 +96,7 @@
               "python3",
               "/pipelines/component/src/component.py"
             ],
-            "image": "gcr.io/de2022-362409/mlptrainer:0.0.1"
+            "image": "gcr.io/decent-oxygen-361810/mlptrainer:0.0.1"
           }
         }
       }
@@ -186,6 +186,6 @@
     "sdkVersion": "kfp-1.8.14"
   },
   "runtimeConfig": {
-    "gcsOutputDirectory": "gs://de_jads_temp"
+    "gcsOutputDirectory": "gs://de_jads_temp_7499"
   }
 }
